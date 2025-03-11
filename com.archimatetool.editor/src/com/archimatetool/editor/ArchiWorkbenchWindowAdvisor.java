@@ -33,6 +33,7 @@ extends WorkbenchWindowAdvisor {
         // Status Line
         boolean doShowStatusLine = ArchiPlugin.PREFERENCES.getBoolean(IPreferenceConstants.SHOW_STATUS_LINE);
         configurer.setShowStatusLine(doShowStatusLine);
+        configurer.setShowProgressIndicator(true);
     }
 
     @Override
